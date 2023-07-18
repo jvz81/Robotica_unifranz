@@ -3,3 +3,8 @@ Procedimiento para clonar repositorio en git bash:
     cambiar al directorio donde se desea clonar el repositorio (cd)
     git clone  "dirección URL del repositorio"
 
+Procedimiento para actualizar repositorio:
+    1. Para verificar si hay archivos para actualizar git status
+    2. git add .
+    3. git -m commit "texto"
+    4. git -push
