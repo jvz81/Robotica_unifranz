@@ -1,3 +1,4 @@
+#!/bin/bash
 supergit() {
   if [[ $1 == "update" ]]; then
     if [[ -z $2 ]]; then
