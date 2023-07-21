@@ -1,0 +1,18 @@
+Seguir los pasos de instalacion de:
+
+	http://wiki.ros.org/noetic/Installation/Ubuntu
+	
+Tomando en cuenta de instalar Desktop-Full install
+
+En la parte de environment setup (1.5), utilizar la opcion bash para que el 
+script bash se ejecute cada que vez que se inicia una nueva terminal
+
+En la seccion 1.6 (Dependencies for building packages)
+ejecutamos el primer comando. 
+
+PARA PROBAR LA INSTALACION REALIZAMOS :$ roscore
+Abrimos otra terminal y realizamos : $rostopic list
+Si obtenemos la respuesta 
+	/rosout
+	/rosout_agg
+Ros ya esta listo para utilizarse
