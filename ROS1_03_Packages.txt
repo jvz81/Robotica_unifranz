@@ -1,0 +1,23 @@
+Dentro el Catkin Workspace se adicionan packages y dentro los packages se escribe los nodos, 
+dentro los packages se puede tener varios nodos con diferentes funcionalidades.
+
+Para crear un Package realizar lo siguiente:
+    a. entrar a la carpeta src dentro de catkin_ws: cd catkin_ws/src
+    b. crear el Package utilizando: catkin_create_pkg <nombre_package> <dependencias>
+    El nombre debe estar relacionado con el proyecto que se esta realizando
+    Las dependencias pueden ser: 
+    rospy       : permite que nuestros nodos puedan acceder a las librerias de python de rospy
+    roscpp      : permite que nuestros nodos puedan acceder a las librerias de C++ de rospy
+    turtlesim   : permite manejar el robot tortuga de ros
+    Las dependencias tambien pueden aumentarse despues en el archivo package.xml que se crea dentro
+    de la carpeta package.
+
+    Ejemplo: catkin_create_pkg practica_01 rospy
+
+    Si se tiene instalado el visual studio code es posible abrir la carpeta catkin_ws/src para 
+    trabajar con los packages utilizando el comando:  code .   
+    el punto indica que se abrira la carpeta actual
+
+Para compilar el package se tiene que estar en la carpeta catkin_ws y utilizar el comando
+catkin_make, es buena practica probar que el package se pueda compilar, Cuando se trabaja en C++
+es necesario compilar el package en cada modificacion, si se utiliza Python esto no es necesario.

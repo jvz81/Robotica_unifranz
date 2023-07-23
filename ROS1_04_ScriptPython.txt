@@ -1,0 +1,19 @@
+En el package donde se quiere realizar el codigo se crea una carpeta scripts:
+    mkdir scripts, dentro la carpeta scripts se colocaran los codigos en Python
+
+Si se crea el archivon .py desde la terminal se puede volver este archivo ejecutable
+haciendo chmod +x <nombre_archivo.py>, se tiene que estar en la misma carpeta
+
+Para trabajar con Python 3 ROS y VS code es recomendable instalar las siguientes extensiones:
+    - Extension Python
+    - Extension CMake (cmake language support for visual studio code from twxs)
+    - ROS extension  
+
+Una vez realizado el programa se lo puede ejecutar de las siguientes maneras:
+
+1: Desde la carpeta scripts haciendo: python3 <nombre_archivo.py>
+
+2: Si se lo volvio ejecutable desde la carpeta scripts haciendo: ./<nombre_archivo.py>
+   o desde /home, haciendo rosrun <nombre_package> <nombre_archivo.py>
+
+

@@ -1,0 +1,24 @@
+CTRL + C   Detiene las ejecuciones
+INICIAR ROS MASTER (solo se hace una vez): roscore
+INICIAR NODO (rosrun <namePackage> <nameNODE>) Los nodos estan organizados en diferentes packages
+(rqt_graph), muestra la ROS GRAPH (todos los nodos, topicos, comunicaciones que estan corriendo)
+
+----    EJEMPLO 1   ------
+En una ventana de la terminal ejecutar el siguiente nodo (rosrun rospy_tutorials talker)
+En otra ventana de la terminal ejecutar un nodo listener (rosrun rospy_tutorials listener)
+    
+    Observar:   - que el listener muestra informacion solo cuando el talker esta corriendo
+                - en el rqt_graph como interactuan talker y listener
+
+----    EJEMPLO 2   ------
+En una ventana de la terminal ejecutar el siguiente nodo (rosrun turtlesim turtlesim_node), se abrira
+una ventana con una tortuga
+
+En otra ventana de la terminal ejecutar el nodo  (rosrun turtlesim turtle_teleop_key)
+    
+    Observar:   - que el segundo nodo permite controlar la tortuga con los cursores del teclado
+                - en el rqt_graph como interactuan los dos nodos
+
+----    NODO        ------
+Un nodo es un programa que realiza alguna accion y que tiene acceso a las funcionalidades de ROS.
+

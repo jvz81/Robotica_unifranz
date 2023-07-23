@@ -1,0 +1,20 @@
+Catkin Workspace permite organizar de manera correcta, para crear el Workspace Catkin:
+
+Mas facil crear Catkin Workspace en la carpeta personal(/Home)
+
+1. Ir a la carpeta personal (/Home)
+2. Crear la carpeta catkin_ws (mkdir catkin_ws)
+3. Dentro la carpeta catkin_ws crear la carpeta src (mkdir src)
+4. Dentro la carpeta catkin_ws compilar utilizando el comando catkin_make, al terminar apareceran
+   las carpetas build devel y la carpeta src creada anteriormente, para verificar se puede utilizar
+   el comando ls
+5. El folder devel se encuentra un archivo setup.bash, a este archivo hay realizarle un source para
+   que se pueda utilizar el codigo que se escriba en el catkin workspace. 
+    
+    a.  Volvemos a la carpeta personal(/home): cd
+    b.  Se tiene que abrir para editar el archivo .bashrc : gedit ~/.bashrc
+    c.  Una vez abierto el archivo se debe buscar la instruccion  source /opt/ros/noetic/setup.bash
+        y despues colocar la instruccion  source ~/catkin_ws/devel/setup.bash  ES IMPORTANTE QUE ESTE
+        DESPUES
+
+Ahora ya se podra utilizar el propio codigo con las funcionalidades de ROS    
