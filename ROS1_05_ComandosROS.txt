@@ -1,0 +1,9 @@
+roscore   : Iniciar el maestro ROS(nodo principal), que permite la comunicacion entre nodos
+rosrun    : Ejecutar un nodo especifico desde el paquete especificado
+roslaunch : Inicia uno o varios nodos ROS desde archivos de lanzamiento (launch files)
+roscd     : Cambiar el directorio de trabajo actual al del paquete especificado
+rosnode list : Muestra la lista de los nodos actualmente activos
+rostopic list : Muestra una lista de los topicos disponibles
+rostopic echo : Muestra el contenido de un topico especifico en tiempo real
+rostopic pub  : Publicar datos en un topico especifico
+

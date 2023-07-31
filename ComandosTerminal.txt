@@ -3,7 +3,7 @@ Lista de comandos utilizados en terminal o consola
             	encuentra el terminal
     cd      	Cambiar directorio
     ls      	Lista de archivos y carpetas
-    la		lista todo, incluso archivos ocultos
+    la		    lista todo, incluso archivos ocultos
     mkdir   	Para crear directorio 
     touch   	Para crear archivos
     nano    	Abre un editor de texto en la consola

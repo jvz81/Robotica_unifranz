@@ -15,4 +15,4 @@ Abrimos otra terminal y realizamos : $rostopic list
 Si obtenemos la respuesta 
 	/rosout
 	/rosout_agg
-Ros ya esta listo para utilizarse
+ROS ya esta listo para utilizarse
