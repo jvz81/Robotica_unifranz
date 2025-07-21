@@ -15,5 +15,5 @@ Para actualizar el repositorio local lo mas facil es:
 Procedimiento para actualizar repositorio:
     1. git status   Para verificar estado de los archivos para actualizar 
     2. git add .    Para subir todos los archivos
-    3. git -m commit "texto"    Mensaje para subir
+    3. git commit -m "texto"    Mensaje para subir
     4. git -push    
